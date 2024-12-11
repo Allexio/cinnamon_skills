@@ -1,0 +1,4 @@
+# make sure I don't include any releases in commits
+
+*.jar
+*.zip
