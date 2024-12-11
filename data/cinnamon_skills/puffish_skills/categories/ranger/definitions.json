@@ -1,0 +1,407 @@
+{
+	"root_ranger": {
+		"title": "Path of the Ranger",
+		"description": "§8You use your superior agility and bow to take enemies out efficiently and quietly. Follow this path to become a lethal hunter. \n\n§aGet experience in this tree by getting ranged kills and using knives & daggers.",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "icons/weapons/Bow02.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.ranged_damage",
+					"value": 0.01,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"superior-strings": {
+		"title": "Superior Strings",
+		"description": "§8Your string is a lot more elastic.\n§8Wait no that's not what I- \n\n§a+5% Bow Draw speed",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "icons/skills/Bow13.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "zenith_attributes:draw_speed",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"ranged_damage": {
+		"title": "Sharper Tips",
+		"description": "§8You sharpen your arrow tips. Cavemen are proud of you.\n\n\n§a+8% Arrow Damage",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "icons/skills/Bow01.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.ranged_damage",
+					"value": 0.08,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"arrow_velocity": {
+		"title": "Arrows? Where?",
+		"description": "§8Sometimes your arrows fly so fast you have trouble seeing them. Maybe you should wear your glasses from now on?\n\n§a+5% Arrow Velocity",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "icons/skills/Bow05.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "zenith_attributes:arrow_velocity",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"dodge": {
+		"title": "Dodgy",
+		"description": "§8You dodge hits suspiciously well.\n\n§a+10% Dodge Chance",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "icons/skills/Shadow14.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "zenith_attributes:dodge_chance",
+					"value": 0.10,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+
+	"crit_chance": {
+		"title": "Head Hunter",
+		"description": "§8When you're done, the unemployment rate among zombies will be at an all time low.\n\n§a+5% Critical Chance",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "icons/skills/Bow09.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "zenith_attributes:crit_chance",
+					"value": 0.05,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"sprint1": {
+		"title": "Sunday Sprinter",
+		"description": "§8There are worse things for your health than sprinting once a week.\n\n§a+3% Sprint Speed",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "icons/skills/Buff04.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.sprinting_speed",
+					"value": 0.03,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"sprint2": {
+		"title": "Monday Marathoner",
+		"description": "§8How else would you start a great week than with your favourite activity.\n\n§a+10% Movement Speed",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "icons/skills/Buff11.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "minecraft:generic.movement_speed",
+					"value": 0.10,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"crit_damage": {
+		"title": "It's over 9%!",
+		"description": "§8Sometimes your hits do more damage.\n§8Now they do even more damage when that happens.\n\n§a+10% Critical Damage",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "icons/skills/Bow06.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "additionalentityattributes:player.critical_bonus_damage",
+					"value": 0.10,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"back_stabber": {
+		"title": "Back Stabber",
+		"description": "§8Trust is overrated.\n\n§a+15% Backstab Damage",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "icons/skills/Dagger02.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "miapi:generic.back_stab",
+					"value": 0.15,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"speed_stabber": {
+		"title": "Speed Stabber",
+		"description": "§8How many stabs could a stabber stab if a stabber could stab you?\n\n§a+10% Attack Speed",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "icons/skills/Dagger06.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "minecraft:generic.attack_speed",
+					"value": 0.10,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"versatile": {
+		"title": "Addicted",
+		"description": "§8Best not look at the label before you wolf it down.\n\n§a-33% Item use Slowdown",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "icons/potions/Red07.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "miapi:generic.player_item_use_speed",
+					"value": 0.28,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"spec-Archery": {
+		"title": "Ultimate Ranger",
+		"description": "§8Let the other guys fight in front while you take the enemies' rea- ...while you take them out from the rear.\n\n§a+10% Bow Draw Speed\n\n§a+10% Ranged Damage\n\n§c-30% Melee Damage",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "icons/weapons/Bow16.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "zenith_attributes:draw_speed",
+					"value": 0.10,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.ranged_damage",
+					"value": 0.10,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.melee_damage",
+					"value": -0.30,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"spec-sniper": {
+		"title": "Specialisation: Sniper",
+		"description": "§8You have a strong fear of blood. Good thing you'll never see it given how far you'll be.\n\n§a+20% Bow Damage \n\n§c-25% Bow Draw Speed",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "icons/weapons/Bow11.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.ranged_damage",
+					"value": 0.20,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "zenith_attributes:draw_speed",
+					"value": -0.25,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"spec-rapid-fire": {
+		"title": "Specialisation: Rapid Fire",
+		"description": "§8When you shoot that fast, it's fine if some of them miss. Turn your enemies into veritable porcupines.\n\n§a+25% Bow Draw Speed\n\n§c-15% Damage\n\n§c-40% Arrow Velocity",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "icons/skills/Bow11.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "zenith_attributes:draw_speed",
+					"value": 0.25,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.ranged_damage",
+					"value": -0.15,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "zenith_attributes:arrow_velocity",
+					"value": -0.40,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"faster-rolls": {
+		"title": "Well-oiled Wheel",
+		"description": "§8They see you rollin'\n\n§a+20% Roll Distance",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "icons/skills/Wind04.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "combatroll:distance",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"roll-recovery": {
+		"title": "Rolling Recovery",
+		"description": "§8They hatiiiiin'\n\n§a+20% Roll Cooldown Speed",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "icons/skills/Wind07.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "combatroll:recharge",
+					"value": 0.20,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	}
+}

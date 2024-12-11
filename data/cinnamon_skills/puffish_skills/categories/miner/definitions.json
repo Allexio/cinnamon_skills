@@ -1,0 +1,243 @@
+{
+	"root_miner": {
+		"title": "Path of the Digger",
+		"description": "§8Plough through hordes of... blocks, with your trusty... shovel? Look the game's name is MINEcraft so I had to fit this in somewhere.\nFollow this path to become more proficient with axes, pickaxes, and shovels! \n\n§aGet experience in this tree by mining blocks!",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "icons/weapons/Sword006.png"
+			}
+		}
+	},
+	"axe": {
+		"title": "Axeman",
+		"description": "§8A wise man once said: \" Now look here son, when you hear the tree creak, don't stand undern-\" \n\n§a+10% Efficiency with Axes",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "icons/weapons/Axe002.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"pickaxe": {
+		"title": "Pick-axe",
+		"description" : "§8...or pick something else, vary it up a little, you know?\n\n§a+5% Efficiency with pickaxes",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "icons/skills/Buff05.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.resistance",
+					"value": 0.03,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"shovel": {
+		"title": "Surface Digger",
+		"description" : "§8You feel capable of so much more than digging dirt, and yet here you are. \n\n§a+10% Efficiency with shovels",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "icons/skills/Buff12.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.resistance",
+					"value": 0.10,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"shovel-2": {
+		"title": "Shovel Knight",
+		"description": "§8Who knew a knight with a shovel could fight so well?\n\n§a+30% Shovel Efficiency,\n\n§c-20% pickaxe efficiency",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "icons/weapons/Sword004.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.melee_damage",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"axe-2": {
+		"title": "Axed",
+		"description": "§8Who knew body spray could be so sharp? \n\n§a+30% Axe Efficiency,\n\n§c-20% pickaxe efficiency",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "icons/weapons/Sword009.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.melee_damage",
+					"value": 0.10,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"pickaxe-2": {
+		"title": "Pickaxe Rick",
+		"description" : "§8It's a pickaxe, Rick! (I hate that show but I do what I gotta do to resonate with my audience)\n\n§a+20% Efficiency with pickaxes,\n\n§c-40% axe efficiency\n\n§c-40% shovel efficiency",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "icons/skills/Buff05.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.resistance",
+					"value": 0.03,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"repair": {
+		"title": "Repairman",
+		"description": "§8Minecraft repair prices, brought to you by Goldman Sachs. \n\n§a-10% Repair Prices",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "icons/skills/Holy03.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.healing",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"fire-immune": {
+		"title": "Hephaestus",
+		"description" : "§8The greek god of fire, and let's face it, a better name for Tinker's Construct.\n\n§aImmunity to all fire damage\n\n§cDamage over time while in contact with water\n\n",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "icons/skills/Fire04.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills_origins:power",
+				"data": {
+					"power": "origins:fire_immunity"
+				}
+			},
+			{
+				"type": "puffish_skills_origins:power",
+				"data": {
+					"power": "origins:water_vulnerability"
+				}
+			}
+		]
+	},
+	"fire-power": {
+		"title": "Raging Fire",
+		"description" : "§8What doesn't burn you makes you stronger.\n\n§aYou deal bonus damage when on fire",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "icons/skills/Fire06.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills_origins:power",
+				"data": {
+					"power": "origins:burning_wrath"
+				}
+			}
+		]
+	},
+	"stone-killer": {
+		"title": "Stone Killer",
+		"description" : "§8You can break stone with your BARE HANDS. Ouch.\n\n§aYou can break stone with your bare hands (and then actually get the stone)",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "icons/skills/Fire06.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills_origins:power",
+				"data": {
+					"power": "origins:strong_arms"
+				}
+			}
+		]
+	}
+	
+}

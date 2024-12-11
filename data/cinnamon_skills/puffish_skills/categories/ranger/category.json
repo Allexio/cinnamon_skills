@@ -1,0 +1,16 @@
+{
+	"unlocked_by_default": true,
+	"title": "Path of the Ranger",
+	"icon": {
+		"type": "texture",
+		"data": {
+			"texture": "icons/weapons/Bow02.png"
+		}
+	},
+	"background": {
+		"texture": "misc/rpg-backgrounds/landscape-2400/ranger_2.jpg",
+		"width": 2400,
+		"height": 1024,
+		"position": "fill"
+	}
+}

@@ -1,0 +1,12 @@
+{
+	"schemaVersion": 1,
+	"id": "cinnamon_skills",
+	"version": "1.0",
+	"name": "Cinnamon Skills",
+	"description": "",
+	"authors": [
+		"Pufferfish's Template Generator"
+	],
+	"license": "Unlicense",
+	"environment": "*"
+}

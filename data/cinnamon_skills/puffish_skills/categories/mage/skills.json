@@ -1,0 +1,368 @@
+{
+	"o0qyd7nktr7thv80": {
+		"definition": "root_mage",
+		"x": -258.6529205969523,
+		"y": 0,
+		"root": true
+	},
+	"chzu7pizrworxuyk": {
+		"definition": "arcane",
+		"x": -129.32646029847615,
+		"y": 96,
+		"root": false
+	},
+	"0vzqr0idyml2giyf": {
+		"definition": "fire",
+		"x": -240.17771198288426,
+		"y": 32,
+		"root": false
+	},
+	"0skxaiffwkcb7che": {
+		"definition": "lightning",
+		"x": -221.70250336881622,
+		"y": 0,
+		"root": false
+	},
+	"epiddszew4psk1ix": {
+		"definition": "frost",
+		"x": -240.17771198288426,
+		"y": -32,
+		"root": false
+	},
+	"qfknlbwl536gokqw": {
+		"definition": "arcane",
+		"x": -295.60333782508826,
+		"y": 0,
+		"root": false
+	},
+	"1qa2hc2kvzae9o5v": {
+		"definition": "heal",
+		"x": -277.12812921102034,
+		"y": 32,
+		"root": false
+	},
+	"wf6wm2l4xsecvjm2": {
+		"definition": "heal",
+		"x": -73.9008344562721,
+		"y": 0,
+		"root": false
+	},
+	"i9emckdc69ivc920": {
+		"definition": "spell-critical-chance",
+		"x": -55.425625842204056,
+		"y": -96,
+		"root": false
+	},
+	"7ffg3386ykt10msy": {
+		"definition": "soul",
+		"x": -277.12812921102034,
+		"y": -32,
+		"root": false
+	},
+	"gevfpts1bmwr2sx6": {
+		"definition": "soul",
+		"x": -332.55375505322434,
+		"y": 0,
+		"root": false
+	},
+	"jizi24si8ospabg5": {
+		"definition": "arcane",
+		"x": -295.60333782508826,
+		"y": 64,
+		"root": false
+	},
+	"nq5185smxfp6zxja": {
+		"definition": "heal",
+		"x": -240.17771198288426,
+		"y": 96,
+		"root": false
+	},
+	"off84jiq4ag7pybo": {
+		"definition": "fire",
+		"x": -184.7520861406802,
+		"y": 0,
+		"root": false
+	},
+	"f4ysqn0tebkaci6a": {
+		"definition": "lightning",
+		"x": -221.70250336881622,
+		"y": -64,
+		"root": false
+	},
+	"j8ffwrt0zxblhhnc": {
+		"definition": "frost",
+		"x": -277.12812921102034,
+		"y": -96,
+		"root": false
+	},
+	"3vygdgqbi4ytwuhd": {
+		"definition": "frost",
+		"x": -351.0289636672925,
+		"y": -96,
+		"root": false
+	},
+	"b3o5veldlfhm6lb7": {
+		"definition": "soul",
+		"x": -332.55375505322434,
+		"y": 64,
+		"root": false
+	},
+	"jvg6huh5r12j7m2w": {
+		"definition": "arcane",
+		"x": -258.6529205969523,
+		"y": 128,
+		"root": false
+	},
+	"g8etjw5auxh7yf2m": {
+		"definition": "heal",
+		"x": -166.27687752661217,
+		"y": 96,
+		"root": false
+	},
+	"x24ywzxm5nyamm2x": {
+		"definition": "fire",
+		"x": -184.7520861406802,
+		"y": -64,
+		"root": false
+	},
+	"ulalhwkkqahc976j": {
+		"definition": "lightning",
+		"x": -258.6529205969523,
+		"y": -128,
+		"root": false
+	},
+	"4p7w31qi9ahq91xk": {
+		"definition": "spell-critical-chance",
+		"x": -332.55375505322434,
+		"y": -128,
+		"root": false
+	},
+	"6netqresffu8rggk": {
+		"definition": "spell-critical-damage",
+		"x": -221.70250336881622,
+		"y": -128,
+		"root": false
+	},
+	"dc3b6715xeyj2xjy": {
+		"definition": "cooldown",
+		"x": -110.85125168440811,
+		"y": 64,
+		"root": false
+	},
+	"0746clb730m5o659": {
+		"definition": "spell-critical-chance",
+		"x": -184.7520861406802,
+		"y": 128,
+		"root": false
+	},
+	"u1u56aifgql3hdhh": {
+		"definition": "spell-critical-damage",
+		"x": -295.60333782508826,
+		"y": 128,
+		"root": false
+	},
+	"kevchix56h2rbbgl": {
+		"definition": "cooldown",
+		"x": -406.45458950949643,
+		"y": -64,
+		"root": false
+	},
+	"7cffsyvdv2iacrh4": {
+		"definition": "lightning",
+		"x": -387.97938089542856,
+		"y": -96,
+		"root": false
+	},
+	"bltf2s41xnndm5q2": {
+		"definition": "frost",
+		"x": -443.4050067376327,
+		"y": 0,
+		"root": false
+	},
+	"1pzv0c3x8bsb2dfb": {
+		"definition": "heal",
+		"x": -73.9008344562721,
+		"y": -64,
+		"root": false
+	},
+	"qdlm7zfvncwudsg8": {
+		"definition": "heal",
+		"x": -110.85125168440811,
+		"y": -128,
+		"root": false
+	},
+	"l43mwu8jyarybclq": {
+		"definition": "cooldown",
+		"x": -147.8016689125442,
+		"y": -192,
+		"root": false
+	},
+	"e67ppqxixqkd02mc": {
+		"definition": "lightning",
+		"x": -443.4050067376327,
+		"y": -64,
+		"root": false
+	},
+	"jtgtf86fggu6137j": {
+		"definition": "lightning",
+		"x": -480.35542396576875,
+		"y": 0,
+		"root": false
+	},
+	"b8xeka917wh9azo6": {
+		"definition": "cooldown",
+		"x": -369.5041722813604,
+		"y": 192,
+		"root": false
+	},
+	"acmdc52bczf5td10": {
+		"definition": "spell-critical-chance",
+		"x": -461.8802153517006,
+		"y": 96,
+		"root": false
+	},
+	"zfu8nh68qaxpw6f5": {
+		"definition": "soul",
+		"x": -240.17771198288426,
+		"y": 160,
+		"root": false
+	},
+	"gm0zjh60il3majki": {
+		"definition": "soul",
+		"x": -166.27687752661217,
+		"y": 160,
+		"root": false
+	},
+	"4d93032kb7bk66cr": {
+		"definition": "soul",
+		"x": -110.85125168440811,
+		"y": 128,
+		"root": false
+	},
+	"99wt5g1oxsbtnvex": {
+		"definition": "arcane",
+		"x": -73.9008344562721,
+		"y": 64,
+		"root": false
+	},
+	"ujaby37al0w5wqyg": {
+		"definition": "arcane",
+		"x": -36.950417228136075,
+		"y": 0,
+		"root": false
+	},
+	"5omg1p36zq6nkvb5": {
+		"definition": "fire",
+		"x": -277.12812921102034,
+		"y": -160,
+		"root": false
+	},
+	"teb6z0tbnh3a970f": {
+		"definition": "fire",
+		"x": -351.0289636672925,
+		"y": -160,
+		"root": false
+	},
+	"u7trqxfhvg9ztci7": {
+		"definition": "fire",
+		"x": -406.45458950949643,
+		"y": -128,
+		"root": false
+	},
+	"vy0auy8biwdqqlos": {
+		"definition": "spell-critical-damage",
+		"x": -461.8802153517006,
+		"y": -96,
+		"root": false
+	},
+	"pjf1ia5cb72hl3vq": {
+		"definition": "spell-critical-damage",
+		"x": -55.425625842204056,
+		"y": 96,
+		"root": false
+	},
+	"cui0h53akpwpkrsq": {
+		"definition": "frost",
+		"x": -443.4050067376327,
+		"y": 64,
+		"root": false
+	},
+	"385q0e7arpmmik9v": {
+		"definition": "frost",
+		"x": -406.45458950949643,
+		"y": 128,
+		"root": false
+	},
+	"ppxgtw959pmalqla": {
+		"definition": "more-xp",
+		"x": -18.475208614068038,
+		"y": 32,
+		"root": false
+	},
+	"dsxich1rq4sbhpj2": {
+		"definition": "more-xp",
+		"x": -92.37604307034013,
+		"y": -160,
+		"root": false
+	},
+	"kh4y1z31nnd38t68": {
+		"definition": "more-xp",
+		"x": -203.2272947547482,
+		"y": -224,
+		"root": false
+	},
+	"828lwuecluydgy0g": {
+		"definition": "more-xp",
+		"x": -498.8306325798367,
+		"y": -32,
+		"root": false
+	},
+	"zs5cx09jyumdvbjh": {
+		"definition": "more-xp",
+		"x": -424.9297981235646,
+		"y": 160,
+		"root": false
+	},
+	"3q6luglefuoozs5r": {
+		"definition": "more-xp",
+		"x": -314.0785464391564,
+		"y": 224,
+		"root": false
+	},
+	"2jwy2x9h2k3eamnl": {
+		"definition": "spell-critical-chance",
+		"x": -480.35542396576875,
+		"y": 128,
+		"root": false
+	},
+	"r0f7oeku1mgfm30k": {
+		"definition": "spell-critical-damage",
+		"x": -369.5041722813604,
+		"y": 256,
+		"root": false
+	},
+	"b9nvm1v7r94mmd7h": {
+		"definition": "spec-elemental",
+		"x": -110.85125168440811,
+		"y": 256,
+		"root": false
+	},
+	"aexyo96x50k823un": {
+		"definition": "spell-critical-damage",
+		"x": -36.950417228136075,
+		"y": -128,
+		"root": false
+	},
+	"jelsxjbcupgyqhwi": {
+		"definition": "spell-critical-chance",
+		"x": -147.8016689125442,
+		"y": -256,
+		"root": false
+	},
+	"ry08zkdbz5zu9kc8": {
+		"definition": "spec-spiritual",
+		"x": -406.45458950949643,
+		"y": -256,
+		"root": false
+	}
+}

@@ -1,0 +1,10 @@
+modLoader="lowcodefml"
+loaderVersion="[1,)"
+license="Unlicense"
+
+[[mods]]
+modId="cinnamon_skills"
+version="1.0"
+displayName="Cinnamon Skills"
+description=""
+authors="Pufferfish's Template Generator"

@@ -1,0 +1,396 @@
+{
+	"experience_per_level": {
+		"type": "values",
+		"data": {
+			"values": [
+				100,
+				100
+			]
+		}
+	},
+	"sources": [
+		{
+			"type": "puffish_skills:mine_block",
+			"data": {
+				"variables": {
+					"is_log": {
+						"operations": [
+							{
+								"type": "get_mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "#logs"
+								}
+							}
+						]
+					},
+					"is_crimson_log": {
+						"operations": [
+							{
+								"type": "get_mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "#crimson_stems"
+								}
+							}
+						]
+					},
+					"is_warped_log": {
+						"operations": [
+							{
+								"type": "get_mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "#warped_stems"
+								}
+							}
+						]
+					},
+					"is_stone": {
+						"operations": [
+							{
+								"type": "get_mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "#c:stone"
+								}
+							}
+						]
+					},
+					"is_clay": {
+						"operations": [
+							{
+								"type": "get_mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "clay"
+								}
+							}
+						]
+					},
+					"is_calcite": {
+						"operations": [
+							{
+								"type": "get_mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "calcite"
+								}
+							}
+						]
+					},
+					"is_asurine": {
+						"operations": [
+							{
+								"type": "get_mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "create:asurine"
+								}
+							}
+						]
+					},
+					"is_crimsite": {
+						"operations": [
+							{
+								"type": "get_mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "create:crimsite"
+								}
+							}
+						]
+					},
+					"is_ochrum": {
+						"operations": [
+							{
+								"type": "get_mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "create:ochrum"
+								}
+							}
+						]
+					},
+					"is_dirt": {
+						"operations": [
+							{
+								"type": "get_mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "#dirt"
+								}
+							}
+						]
+					},
+					"is_sand": {
+						"operations": [
+							{
+								"type": "get_mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "#c:sand"
+								}
+							}
+						]
+					},
+					"is_deepslate": {
+						"operations": [
+							{
+								"type": "get_mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "deepslate"
+								}
+							}
+						]
+					},
+					"is_coal_ore": {
+						"operations": [
+							{
+								"type": "get_mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "#coal_ores"
+								}
+							}
+						]
+					},
+					"is_iron_ore": {
+						"operations": [
+							{
+								"type": "get_mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "#iron_ores"
+								}
+							}
+						]
+					},
+					"is_copper_ore": {
+						"operations": [
+							{
+								"type": "get_mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "#copper_ores"
+								}
+							}
+						]
+					},
+					"is_redstone_ore": {
+						"operations": [
+							{
+								"type": "get_mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "#redstone_ores"
+								}
+							}
+						]
+					},
+					"is_emerald_ore": {
+						"operations": [
+							{
+								"type": "get_mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "#emerald_ores"
+								}
+							}
+						]
+					},
+					"is_lapis_ore": {
+						"operations": [
+							{
+								"type": "get_mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "#lapis_ores"
+								}
+							}
+						]
+					},
+					"is_diamond_ore": {
+						"operations": [
+							{
+								"type": "get_mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "#diamond_ores"
+								}
+							}
+						]
+					},
+					"is_quartz_ore": {
+						"operations": [
+							{
+								"type": "get_mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "#c:quartz_ores"
+								}
+							}
+						]
+					},
+					"is_gold_ore": {
+						"operations": [
+							{
+								"type": "get_mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "#gold_ores"
+								}
+							}
+						]
+					},
+					"is_sandstone": {
+						"operations": [
+							{
+								"type": "get_mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "#c:sandstone"
+								}
+							}
+						]
+					}
+				},
+				"experience": [
+					{
+						"condition": "is_sandstone",
+						"expression": "1"
+					},
+					{
+						"condition": "is_dirt",
+						"expression": "1"
+					},
+					{
+						"condition": "is_sand",
+						"expression": "1"
+					},
+					{
+						"condition": "is_stone",
+						"expression": "1"
+					},
+					{
+						"condition": "is_calcite",
+						"expression": "2"
+					},
+					{
+						"condition": "is_clay",
+						"expression": "2"
+					},
+					{
+						"condition": "is_asurine",
+						"expression": "2"
+					},
+					{
+						"condition": "is_crimsite",
+						"expression": "2"
+					},
+					{
+						"condition": "is_ochrum",
+						"expression": "2"
+					},
+					{
+						"condition": "is_deepslate",
+						"expression": "2"
+					},
+					{
+						"condition": "is_log",
+						"expression": "2"
+					},
+					{
+						"condition": "is_crimson_log",
+						"expression": "2"
+					},
+					{
+						"condition": "is_warped_log",
+						"expression": "2"
+					},
+					{
+						"condition": "is_coal_ore",
+						"expression": "5"
+					},
+					{
+						"condition": "is_iron_ore",
+						"expression": "10"
+					},
+					{
+						"condition": "is_copper_ore",
+						"expression": "10"
+					},
+					{
+						"condition": "is_gold_ore",
+						"expression": "30"
+					},
+					{
+						"condition": "is_redstone_ore",
+						"expression": "30"
+					},
+					{
+						"condition": "is_emerald_ore",
+						"expression": "30"
+					},
+					{
+						"condition": "is_lapis_ore",
+						"expression": "20"
+					},
+					{
+						"condition": "is_diamond_ore",
+						"expression": "50"
+					},
+					{
+						"condition": "is_quartz_ore",
+						"expression": "10"
+					}
+				]
+			}
+		}
+	]
+}

@@ -1,0 +1,320 @@
+{
+	"698xom8sy3bwlkaq": {
+		"definition": "root_explorer",
+		"x": 320,
+		"y": 0,
+		"root": true
+	},
+	"0tn55sacugpimsbp": {
+		"definition": "long-arms",
+		"x": 288,
+		"y": -256,
+		"root": false
+	},
+	"ouncfc1kb2xe9rqh": {
+		"definition": "luck",
+		"x": 288,
+		"y": -320,
+		"root": false
+	},
+	"d2wihcmaksna5v8u": {
+		"definition": "long-arms",
+		"x": 352,
+		"y": -256,
+		"root": false
+	},
+	"tqz7xkzl1yg3s4tv": {
+		"definition": "luck",
+		"x": 352,
+		"y": -320,
+		"root": false
+	},
+	"2v343ir1gu79eix8": {
+		"definition": "elytra-expertise",
+		"x": 352,
+		"y": 256,
+		"root": false
+	},
+	"cwb2nwwmxx8jn6ct": {
+		"definition": "elytra-expertise",
+		"x": 288,
+		"y": 256,
+		"root": false
+	},
+	"qtvcqyqyavsgt8di": {
+		"definition": "sprint1",
+		"x": 288,
+		"y": 288,
+		"root": false
+	},
+	"oy9rl3vvues4sdiu": {
+		"definition": "sprint1",
+		"x": 352,
+		"y": 288,
+		"root": false
+	},
+	"p8w5vcpgttjx38jx": {
+		"definition": "luck",
+		"x": 352,
+		"y": 320,
+		"root": false
+	},
+	"0einrrlictjo18kt": {
+		"definition": "luck",
+		"x": 288,
+		"y": 320,
+		"root": false
+	},
+	"w9tybk845n3nqxlv": {
+		"definition": "loot-magnet",
+		"x": 640,
+		"y": -32,
+		"root": false
+	},
+	"q1gcnveik9v80o4z": {
+		"definition": "loot-magnet",
+		"x": 576,
+		"y": -32,
+		"root": false
+	},
+	"8appn6s6lgri5gjk": {
+		"definition": "loot-magnet",
+		"x": 576,
+		"y": 0,
+		"root": false
+	},
+	"4e71ok9y2v6oeeoz": {
+		"definition": "loot-magnet",
+		"x": 576,
+		"y": 32,
+		"root": false
+	},
+	"4bmsir4tdc16mls8": {
+		"definition": "loot-magnet",
+		"x": 640,
+		"y": 32,
+		"root": false
+	},
+	"2f4iaihl38jo42kl": {
+		"definition": "loot-magnet",
+		"x": 640,
+		"y": 0,
+		"root": false
+	},
+	"0z44jhnhqq131u6f": {
+		"definition": "aquaman",
+		"x": 0,
+		"y": -32,
+		"root": false
+	},
+	"pigketut3zld8c53": {
+		"definition": "deep-breaths",
+		"x": 0,
+		"y": 32,
+		"root": false
+	},
+	"dm6a2nyfgcsff2qx": {
+		"definition": "deep-breaths",
+		"x": 32,
+		"y": 0,
+		"root": false
+	},
+	"pqg6wsljudya34ur": {
+		"definition": "deep-breaths",
+		"x": 64,
+		"y": 32,
+		"root": false
+	},
+	"xip8x306fhnh9iyk": {
+		"definition": "gills",
+		"x": 64,
+		"y": -32,
+		"root": false
+	},
+	"sy72hmfrv35ztqw9": {
+		"definition": "sprint1",
+		"x": 544,
+		"y": -64,
+		"root": false
+	},
+	"jsehwftlw0k45l4w": {
+		"definition": "lavaman",
+		"x": 544,
+		"y": 64,
+		"root": false
+	},
+	"2ktnvmlfpm0andsy": {
+		"definition": "lavaman",
+		"x": 672,
+		"y": 64,
+		"root": false
+	},
+	"zls4i258decncjcb": {
+		"definition": "sprint1",
+		"x": 672,
+		"y": -64,
+		"root": false
+	},
+	"2iwsz7gougm0h7i9": {
+		"definition": "aquaman",
+		"x": -32,
+		"y": -64,
+		"root": false
+	},
+	"dbnh45efc2xvmfot": {
+		"definition": "deep-breaths",
+		"x": 96,
+		"y": -64,
+		"root": false
+	},
+	"kjwmk0bh7qo1ysfj": {
+		"definition": "deep-breaths",
+		"x": 96,
+		"y": 64,
+		"root": false
+	},
+	"zrraqom00ft4nxxb": {
+		"definition": "aquaman",
+		"x": -32,
+		"y": 64,
+		"root": false
+	},
+	"iu265rsmf2eg9xl4": {
+		"definition": "long-arms",
+		"x": 64,
+		"y": -256,
+		"root": false
+	},
+	"32pbje80mplwhir5": {
+		"definition": "bigger-jumps",
+		"x": 256,
+		"y": 224,
+		"root": false
+	},
+	"104ejmigy88npowt": {
+		"definition": "bigger-jumps",
+		"x": 384,
+		"y": 224,
+		"root": false
+	},
+	"lgr3wf2i8s90wcbs": {
+		"definition": "sprint1",
+		"x": 256,
+		"y": 352,
+		"root": false
+	},
+	"bxpuveai1zf6ukht": {
+		"definition": "sprint1",
+		"x": 384,
+		"y": 352,
+		"root": false
+	},
+	"ys8f88yo0st3247f": {
+		"definition": "sprint2",
+		"x": 256,
+		"y": -224,
+		"root": false
+	},
+	"72tiab2oapsuss2x": {
+		"definition": "scavenger",
+		"x": 384,
+		"y": -352,
+		"root": false
+	},
+	"wzl7j36halze88by": {
+		"definition": "luck",
+		"x": 256,
+		"y": -352,
+		"root": false
+	},
+	"3xfz1sldnmqusmdq": {
+		"definition": "long-arms",
+		"x": 576,
+		"y": 256,
+		"root": false
+	},
+	"cyd1dtqhscbf1wdg": {
+		"definition": "scavenger",
+		"x": 64,
+		"y": 256,
+		"root": false
+	},
+	"d34kfe72np6988k0": {
+		"definition": "scavenger",
+		"x": 576,
+		"y": -256,
+		"root": false
+	},
+	"u4nlkegjgtayydct": {
+		"definition": "sprint1",
+		"x": 320,
+		"y": -224,
+		"root": false
+	},
+	"ylccif23b69yrrzg": {
+		"definition": "phantom",
+		"x": 384,
+		"y": 0,
+		"root": false
+	},
+	"edc7z01bj4wum5gg": {
+		"definition": "wallclimb",
+		"x": 256,
+		"y": 0,
+		"root": false
+	},
+	"epmo2gkwodjcvo5n": {
+		"definition": "mega-jump",
+		"x": 320,
+		"y": 64,
+		"root": false
+	},
+	"sx9pq2lrvloelk1p": {
+		"definition": "teleport",
+		"x": 320,
+		"y": -64,
+		"root": false
+	},
+	"qaqdv8gfk05p9a43": {
+		"definition": "sprint1",
+		"x": 544,
+		"y": 0,
+		"root": false
+	},
+	"zc3gmxmvoic0gy2l": {
+		"definition": "sprint2",
+		"x": 384,
+		"y": -224,
+		"root": false
+	},
+	"saa3aesz26jkv5qa": {
+		"definition": "deep-breaths",
+		"x": 96,
+		"y": 0,
+		"root": false
+	},
+	"e8otwmodyvj5trvl": {
+		"definition": "luck",
+		"x": 320,
+		"y": 224,
+		"root": false
+	},
+	"xoetubbpskr9c2fi": {
+		"definition": "sprint1",
+		"x": 416,
+		"y": 32,
+		"root": false
+	},
+	"6hvtt4c3877wuckm": {
+		"definition": "sprint1",
+		"x": 352,
+		"y": 96,
+		"root": false
+	},
+	"c38c4pcuqr6vwbcs": {
+		"definition": "phantom-pass-through",
+		"x": 480,
+		"y": 0,
+		"root": false
+	}
+}

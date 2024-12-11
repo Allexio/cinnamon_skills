@@ -1,0 +1,394 @@
+{
+	"root_warrior": {
+		"title": "Path of the Warrior",
+		"description": "§8Plough through hordes of enemies with your trusty sword, shield, and the latest luxury armour. \nFollow this path to become more proficient with all three to better chop up your enemies whilst staying in one (very flashy-looking) piece. \n\n§aGet experience in this tree by getting melee kills and vanquishing raids",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "icons/weapons/Sword006.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.melee_damage",
+					"value": 0.5,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"health": {
+		"title": "Hearty",
+		"description": "§8You suddenly feel healthier, as if you could take just one more hit before dying. A very small hit. Somewhere between a mosquito bite and a bee sting. \n\n§a+1 heart container",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "icons/skills/Holy01.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 2,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"resistance": {
+		"title": "Stone Skin",
+		"description" : "§8Your skin feels harder to the touch. No more paper cuts for you! \n\n§a+3% Damage Resist",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "icons/skills/Buff05.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.resistance",
+					"value": 0.03,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"resistance2": {
+		"title": "Iron Skin",
+		"description" : "§8Your skin feels even harder to the touch. You could probably use this for things other than fighting? \n\n§a+10% Damage Resist",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "icons/skills/Buff12.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.resistance",
+					"value": 0.10,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"melee_damage": {
+		"title": "Sharp Sword",
+		"description": "§8Your sword got an upgrade! Don't cut yourself.\n\n§a+5% Melee Damage",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "icons/weapons/Sword004.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.melee_damage",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"melee_damage2": {
+		"title": "Sharper Sword",
+		"description": "§8When you think about it, who needs sharp wit when you've got a sharp sword? \n\n§a+10% Melee Damage",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "icons/weapons/Sword009.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.melee_damage",
+					"value": 0.10,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"regen": {
+		"title": "Miraculous Constitution",
+		"description": "§8You recover from wounds faster. Doesn't apply to common cold symptoms. \n\n§a+5% Regeneration",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "icons/skills/Holy03.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.healing",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"vampire": {
+		"title": "Specialisation: Vampiric Tendencies",
+		"description": "§8You leech the life straight out of your enemies with every hit.\n§8What a sucker.\n\n§aSiphon damage dealt to overheal, caps at half max health \n\n§c-50% Regen from all other sources\n\n§c-10% Melee Damage",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "icons/skills/Sword07.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "zenith_attributes:overheal",
+					"value": 0.5,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.healing",
+					"value": -0.50,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.melee_damage",
+					"value": -0.10,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"knockback": {
+		"title": "Hammerhead",
+		"description": "§8Who needs to kill enemies when you can just headbutt them out of the way? \n§8We take no responsibility for any brain cells that may be lost as a result. \n\n §a+10% Knockback",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "icons/weapons/Mace003.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.knockback",
+					"value": 0.10,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"knockback2": {
+		"title": "Sledgehammerhead",
+		"description": "§8Why shove when a flick is enough? \n\n §a+30% Knockback",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "icons/weapons/Gold_Mace.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.knockback",
+					"value": 0.30,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"knockback-res": {
+		"title": "Riveted Armour",
+		"description": "§8No one can knock you down (except your low self-esteem). \n\n §a+15% Knockback Resistance",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "icons/shields/Metal04.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "minecraft:generic.knockback_resistance",
+					"value": 0.15,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"ultimate-warrior": {
+		"title": "Ultimate Warrior",
+		"description": "§8You are the ultimate warrior, the true tyrannosaurus rex of this world. Unfortunately, your small arms make you worthless at pretty much anything else. \n\n§a+25% Melee Damage \n\n§c-50% Projectile Damage",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "icons/skills/Buff14.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.melee_damage",
+					"value": 0.25,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.ranged_damage",
+					"value": -0.50,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"fortress": {
+		"title": "Specialisation: Unmoving Fortress",
+		"description": "§8You are a true fortress, a bastion standing tall against the enemy.\n§8They won't breach your defences, but they are so entrenched you have trouble moving.\n\n§a+30% Damage Resistance \n\n§a+50% Knockback Resistance \n\n§c-30% Movement Speed",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "icons/skills/Shadow16.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "minecraft:generic.movement_speed",
+					"value": -0.30,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.resistance",
+					"value": 0.40,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "minecraft:generic.knockback_resistance",
+					"value": 0.50,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"glass-cannon": {
+		"title": "Specialisation: Glass Cannon",
+		"description": "§8Who thought it would be a good idea to make a cannon out of glass? \n\n§a+20% Melee Damage \n\n§c-30% Resistance",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "icons/items/Cannon03.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.melee_damage",
+					"value": 0.20,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.resistance",
+					"value": -0.30,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"penetrator": {
+		"title": "Penetrator",
+		"description": "§8...\nDo I really have to explain what you're good at?\n\n§a+1 Armour Piercing",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "icons/skills/Sword06.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "zenith_attributes:armor_pierce",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"roller": {
+		"title": "Roller",
+		"description": "§8You can do one more combat roll! Don't do three in a row or you'll get dizzy.\n\n§8Just kidding.\n\n§a+1 Combat Roll Count",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "icons/skills/Wind03.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "combatroll:count",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		]
+	}
+}

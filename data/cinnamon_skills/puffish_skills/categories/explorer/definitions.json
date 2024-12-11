@@ -1,0 +1,474 @@
+{
+	"root_explorer": {
+		"title": "Path of the Explorer",
+		"description": "§8You don't need to fight enemies if they can't catch up to you. Follow this path to train your stamina, agility, and luck to their very limits!\n\n§aGet experience in this tree by finding and opening chests",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "icons/items/Telescope.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.fortune",
+					"value": 0.1,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"luck": {
+		"title": "Lucky",
+		"description": "§8You must be a punk because you're feeling lucky.\n\n§a+0.25 Luck",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "icons/items/Clover.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.luck",
+					"value": 0.25,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"scavenger": {
+		"title": "Scavenger",
+		"description": "§8It's a good thing you grew up watching those survivalist youtube videos.\n\n§a+10% Stamina Efficiency",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "icons/food/Fish.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.stamina",
+					"value": 0.10,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"sprint1": {
+		"title": "Sunday Sprinter",
+		"description": "§8There are worse things for your health than sprinting once a week.\n\n§a+3% Sprint Speed",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "icons/skills/Buff04.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_skills:player.sprinting_speed",
+					"value": 0.06,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"sprint2": {
+		"title": "Monday Marathoner",
+		"description": "§8How else would you start a great week than with your favourite activity.\n\n§a+10% Movement Speed",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "icons/skills/Buff11.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "minecraft:generic.movement_speed",
+					"value": 0.10,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"long-arms": {
+		"title": "Long Armed",
+		"description": "§8These freakishly long arms would've been useful to defuse the bomb an hour ago.\n\n§a+1 Reach",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "icons/skills/Buff09.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "reach-entity-attributes:reach",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"loot-magnet": {
+		"title": "Loot Magnet",
+		"description": "§8Items on the floor seem to be drawn to your body and you're not entirely sure why, but your back thanks you.\n\n§a+1 Collection Range",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "icons/skills/Magic07.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "additionalentityattributes:player.collection_range",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"aquaman": {
+		"title": "Aquaman",
+		"description": "§8You move underwater like a dolphin.\n\n§a+20% Movement Speed in Water",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "icons/skills/Water03.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "additionalentityattributes:generic.water_speed",
+					"value": 0.20,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"lavaman": {
+		"title": "Lavaman",
+		"description": "§8You move underlava like a... like a... \n\n§8You move faster in lava.\n\n§a+20% Movement Speed in Lava",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "icons/skills/Fire02.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "additionalentityattributes:generic.lava_speed",
+					"value": 0.20,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"deep-breaths": {
+		"title": "Water Breather",
+		"description": "§8You played \"who can hold their breath the longest\" when you were a child, and now it's time to put it to practice.\n\n§a+20% Lung Capacity",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "icons/skills/Water07.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "additionalentityattributes:generic.lung_capacity",
+					"value": 100,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"bigger-jumps": {
+		"title": "Jolly Jumper",
+		"description": "§8You can jump higher.\n\n§8Watch out for painful landings.\n\n§a+50% Jump Height",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "icons/skills/Magic04.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "additionalentityattributes:generic.jump_height",
+					"value": 0.50,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"elytra-expertise": {
+		"title": "Elytra Expertise",
+		"description": "§8Do a barrel roll!\n\n§a+15% Elytra Turn Efficiency\n\n§a+15% Elytra Rocket Efficiency\n\n§a+15% Elytra Glide Efficiency",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "icons/skills/Holy05.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "miapi:generic.elytra_glide_efficiency",
+					"value": 0.15,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "miapi:generic.elytra_rocket_efficiency",
+					"value": 0.15,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "miapi:generic.elytra_turn_efficiency",
+					"value": 0.15,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"mega-jump": {
+		"title": "Holy Jumper",
+		"description": "§8You can jump SUPER high, just make sure you've equipped your paraglider.\n\n§aActive Ability (G)\n\n§aJump 20 blocks into the air\n\n§cYou take more fall/elytra collision damage",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "icons/skills/Wind06.png"
+			}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills_origins:power",
+				"data": {
+					"power": "origins:launch_into_air"
+				}
+			},
+			{
+				"type": "puffish_skills_origins:power",
+				"data": {
+					"power": "origins:more_kinetic_damage"
+				}
+			}
+		]
+	},
+	"teleport": {
+		"title": "Enderport",
+		"description": "§8You can shoot ender pearls out of your... uh, let's just say they come from your hands(?!)\n\n§aActive Ability (G)\n\n§aTeleport with ender pearls at will\n\n§cYou get claustrophobic in small places (you get debuffed when the ceiling is too low)",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:ender_pearl"
+			}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills_origins:power",
+				"data": {
+					"power": "origins:throw_ender_pearl"
+				}
+			}
+		]
+	},
+	"phantom": {
+		"title": "Phantom",
+		"description": "§8You've eaten one too many phantom membranes and your body has begun to change.\n\n§aActive Ability (G)\n\n§aYou can switch to Phantom state at will, during which you will be invisible.\n\n§cFood consumption is increased while in phantom state.\n\n§cYou will take damage whilst in direct sunlight and not in phantom state.",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "icons/skills/Shadow10.png"
+			}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills_origins:power",
+				"data": {
+					"power": "origins:phantomize"
+				}
+			},
+			{
+				"type": "puffish_skills_origins:power",
+				"data": {
+					"power": "origins:invisibility"
+				}
+			},
+			{
+				"type": "puffish_skills_origins:power",
+				"data": {
+					"power": "origins:burn_in_daylight"
+				}
+			}
+		]
+	},
+	"phantom-pass-through": {
+		"title": "Ghost",
+		"description": "§8You feel your connection to the phantom growing stronger.\n\n§aActive Ability Upgrade (G)\n\n§aYou can phase through walls and blocks in Phantom state\n\n§8(You can not phase through obsidian or bedrock - duh.).)",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "icons/skills/Shadow14.png"
+			}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills_origins:power",
+				"data": {
+					"power": "origins:phasing"
+				}
+			}
+		]
+	},
+	"gills": {
+		"title": "Gill-y Suit",
+		"description": "§8You breathe underwater, but not overwater.\n\n§aYou can breathe underwater\n\n§aYou no longer have a mining penalty in water\n\n§aYou do not fall in water\n\n§cYou cannot breathe outside water",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "icons/skills/Water01.png"
+			}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills_origins:power",
+				"data": {
+					"power": "origins:water_breathing"
+				}
+			},
+			{
+				"type": "puffish_skills_origins:power",
+				"data": {
+					"power": "origins:aquatic"
+				}
+			},
+			{
+				"type": "puffish_skills_origins:power",
+				"data": {
+					"power": "origins:like_water"
+				}
+			}
+		]
+	},
+	"water-vision": {
+		"title": "Gill-y Suit",
+		"description": "§8You breathe underwater, but not overwater.\n\n§aYou can breathe underwater\n\n§aYou no longer have a mining penalty in water\n\n§aYou do not fall in water\n\n§cYou cannot breathe outside water",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "icons/skills/Water01.png"
+			}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills_origins:power",
+				"data": {
+					"power": "origins:water_breathing"
+				}
+			}
+		]
+	},
+	"wallclimb": {
+		"title": "Spider Steve",
+		"description": "§8Spider Steve, Spider Steve. Climbs whatever a Spider Steve climbs.\n\n§aYou can climb walls\n\n§cYou cannot use shields\n\n§cYou exhaust yourself faster",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:cobweb"
+			}
+		},
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills_origins:power",
+				"data": {
+					"power": "origins:climbing"
+				}
+			},
+			{
+				"type": "puffish_skills_origins:power",
+				"data": {
+					"power": "origins:no_shield"
+				}
+			},
+			{
+				"type": "puffish_skills_origins:power",
+				"data": {
+					"power": "origins:more_exhaustion"
+				}
+			}
+		]
+	}
+}

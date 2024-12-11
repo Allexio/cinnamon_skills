@@ -1,0 +1,41 @@
+{
+	"experience_per_level": {
+		"type": "expression",
+		"data": {
+			"expression": "min(level ^ 1.432 + 10, 200)"
+		}
+	},
+	"sources": [
+		{
+			"type": "puffish_skills:kill_entity",
+			"data": {
+				"conditions": {
+					"magic": {
+						"type": "damage_type",
+						"data": {
+							"damage": "minecraft:magic"
+						}
+					}
+				},
+				"parameters": {
+					"dropped_xp": {
+						"type": "entity_dropped_experience"
+					},
+					"max_health": {
+						"type": "entity_max_health"
+					}
+				},
+				"experience": [
+					{
+						"condition": "magic",
+						"expression": "dropped_xp + max_health / 40"
+					}
+				],
+				"anti_farming":{
+					"limit_per_chunk":"13",
+					"reset_after_seconds":"180"
+				}
+			}
+		}
+	]
+}

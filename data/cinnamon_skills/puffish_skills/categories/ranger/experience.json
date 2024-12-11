@@ -1,0 +1,61 @@
+{
+	"experience_per_level": {
+		"type": "expression",
+		"data": {
+			"expression": "min(level ^ 1.432 + 10, 200)"
+		}
+	},
+	"sources": [
+		{
+			"type": "puffish_skills:kill_entity",
+			"data": {
+				"conditions": {
+					"bows": {
+						"type": "damage_type_tag",
+						"data": {
+							"tag": "minecraft:is_projectile"
+						}
+					},
+					"knives": {
+						"type": "weapon_tag",
+						"data": {
+							"tag": "c:tools/knives"
+						}
+					},
+					"spears": {
+						"type": "weapon_tag",
+						"data": {
+							"tag": "archers:spears"
+						}
+					}
+				},
+				"parameters": {
+					"dropped_xp": {
+						"type": "entity_dropped_experience"
+					},
+					"max_health": {
+						"type": "entity_max_health"
+					}
+				},
+				"experience": [
+					{
+						"condition": "bows",
+						"expression": "dropped_xp + max_health / 100"
+					},
+					{
+						"condition": "knives",
+						"expression": "dropped_xp + max_health / 40"
+					},
+					{
+						"condition": "spears",
+						"expression": "dropped_xp + max_health / 100"
+					}
+				],
+				"anti_farming":{
+					"limit_per_chunk":"15",
+					"reset_after_seconds":"180"
+				}
+			}
+		}
+	]
+}

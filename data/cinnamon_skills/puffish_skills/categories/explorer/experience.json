@@ -1,0 +1,36 @@
+{
+	"experience_per_level": {
+		"type": "values",
+		"data": {
+			"values": [
+				2,
+				4,
+				6,
+				8,
+				10,
+				15
+			]
+		}
+	},
+	"sources": [
+		{
+			"type": "puffish_skills:increase_stat",
+			"data": {
+				"conditions": {
+					"looted_chest": {
+						"type": "stat",
+						"data": {
+							"stat": "minecraft.custom:lootr.looted_stat"
+						}
+					}
+				},
+				"experience": [
+					{
+						"condition": "looted_chest",
+						"expression": "1"
+					}
+				]
+			}
+		}
+	]
+}

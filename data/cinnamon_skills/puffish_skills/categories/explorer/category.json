@@ -1,0 +1,16 @@
+{
+	"unlocked_by_default": true,
+	"title": "Path of the Explorer",
+	"icon": {
+		"type": "texture",
+		"data": {
+			"texture": "icons/items/Telescope.png"
+		}
+	},
+	"background": {
+		"texture": "misc/rpg-backgrounds/landscape-2400/explorer_1.jpg",
+		"width": 2400,
+		"height": 1024,
+		"position": "fill"
+	}
+}

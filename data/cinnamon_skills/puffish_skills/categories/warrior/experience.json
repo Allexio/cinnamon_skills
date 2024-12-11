@@ -1,0 +1,77 @@
+{
+	"experience_per_level": {
+		"type": "expression",
+		"data": {
+			"expression": "min(level ^ 1.432 + 10, 200)"
+		}
+	},
+	"sources": [
+		{
+			"type": "puffish_skills:kill_entity",
+			"data": {
+				"conditions": {
+					"swords": {
+						"type": "weapon_tag",
+						"data": {
+							"tag": "c:swords"
+						}
+					},
+					"axes": {
+						"type": "weapon_tag",
+						"data": {
+							"tag": "c:axes"
+						}
+					},
+					"pickaxes": {
+						"type": "weapon_tag",
+						"data": {
+							"tag": "c:pickaxes"
+						}
+					},
+					"shovels": {
+						"type": "weapon_tag",
+						"data": {
+							"tag": "c:shovels"
+						}
+					},
+					"hammers": {
+						"type": "weapon_tag",
+						"data": {
+							"tag": "paladins:great_hammers"
+						}
+					},
+					"maces": {
+						"type": "weapon_tag",
+						"data": {
+							"tag": "paladins:maces"
+						}
+					},
+					"claymores": {
+						"type": "weapon_tag",
+						"data": {
+							"tag": "paladins:claymores"
+						}
+					}
+				},
+				"parameters": {
+					"dropped_xp": {
+						"type": "entity_dropped_experience"
+					},
+					"max_health": {
+						"type": "entity_max_health"
+					}
+				},
+				"experience": [
+					{
+						"condition": "swords | axes | pickaxes | shovels | hammers | maces | claymores",
+						"expression": "dropped_xp + max_health / 80"
+					}
+				],
+				"anti_farming":{
+					"limit_per_chunk":"15",
+					"reset_after_seconds":"200"
+				}
+			}
+		}
+	]
+}
