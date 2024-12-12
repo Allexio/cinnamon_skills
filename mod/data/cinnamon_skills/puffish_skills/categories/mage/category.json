@@ -8,9 +8,9 @@
 		}
 	},
 	"background": {
-		"texture": "misc/rpg-backgrounds/landscape-2400/mage_2.jpg",
-		"width": 2400,
-		"height": 1024,
+		"texture": "misc/backgrounds-3-opacity/mage_1.png",
+		"width": 3440,
+		"height": 1440,
 		"position": "fill"
 	}
 }

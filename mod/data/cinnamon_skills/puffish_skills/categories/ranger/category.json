@@ -1,6 +1,6 @@
 {
 	"unlocked_by_default": true,
-	"title": "Path of the Ranger",
+	"title": "Path of the Rogue",
 	"icon": {
 		"type": "texture",
 		"data": {
@@ -8,9 +8,9 @@
 		}
 	},
 	"background": {
-		"texture": "misc/rpg-backgrounds/landscape-2400/ranger_2.jpg",
-		"width": 2400,
-		"height": 1024,
+		"texture": "misc/backgrounds-3-opacity/rogue_1.png",
+		"width": 3440,
+		"height": 1440,
 		"position": "fill"
 	}
 }

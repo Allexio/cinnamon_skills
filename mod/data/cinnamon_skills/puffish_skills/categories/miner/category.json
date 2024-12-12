@@ -8,9 +8,9 @@
 		}
 	},
 	"background": {
-		"texture": "misc/rpg-backgrounds/landscape-2400/miner_1.jpg",
-		"width": 2400,
-		"height": 1024,
+		"texture": "misc/backgrounds-3-opacity/miner_1.png",
+		"width": 3440,
+		"height": 1440,
 		"position": "fill"
 	}
 }
