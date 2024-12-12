@@ -1,6 +1,6 @@
 {
 	"root_ranger": {
-		"title": "Path of the Ranger",
+		"title": "Rogue One",
 		"description": "§8You use your superior agility and bow to take enemies out efficiently and quietly. Follow this path to become a lethal hunter. \n\n§aGet experience in this tree by getting ranged kills and using knives & daggers.",
 		"frame": {
 			"type": "advancement",
@@ -13,17 +13,7 @@
 			"data": {
 				"texture": "icons/weapons/Bow02.png"
 			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "puffish_skills:player.ranged_damage",
-					"value": 0.01,
-					"operation": "addition"
-				}
-			}
-		]
+		}
 	},
 	"superior-strings": {
 		"title": "Superior Strings",
