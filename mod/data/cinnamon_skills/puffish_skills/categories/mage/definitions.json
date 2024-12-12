@@ -13,17 +13,7 @@
 			"data": {
 				"texture": "icons/weapons/Book06.png"
 			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "spell_power:critical_chance",
-					"value": 2,
-					"operation": "addition"
-				}
-			}
-		]
+		}
 	},
 	"more-xp": {
 		"title": "Avid Learner",
