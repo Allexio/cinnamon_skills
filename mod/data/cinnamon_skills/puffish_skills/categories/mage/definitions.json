@@ -356,5 +356,42 @@
 				}
 			}
 		]
-	}
+	},
+	"heatresist": {
+        "title": "§bExtreme Climate Resist: Hot",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "minecraft:magma_block"
+            }
+        },
+        "frame": {
+            "type": "advancement",
+            "data": {
+                "frame": "goal"
+            }
+        },
+        "description": "§d+80% Heat Dampening\n§c-20%Cold Dampening\n§fPoint Cost: §c30",
+        "extra_description": "§7You've accustomed yourself to the extremely high temperatures. You find yourself able to withstand the climates of such for much longer durations compared to others. As a consequence, however, you find yourself outside your comfort zone in the opposing temperature.",
+        "size": 1.5,
+        "cost": 30,
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "cold_sweat:heat_dampening",
+                    "value": 0.8,
+                    "operation": "multiply_base"
+                }
+            },
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "cold_sweat:cold_dampening",
+                    "value": -0.2,
+                    "operation": "multiply_base"
+                }
+            }
+        ]
+    }
 }
