@@ -1,8 +1,116 @@
 {
-	"es2wmb874pwemo2l": {
+	"w3q9zf9fm3rxe05l": {
 		"definition": "root_miner",
+		"x": 192,
+		"y": -192,
+		"root": false
+	},
+	"uwi6bh40hf6439fh": {
+		"definition": "shovel",
+		"x": 256,
+		"y": -128,
+		"root": false
+	},
+	"iz3cm7fcnov3nhso": {
+		"definition": "axe",
+		"x": 128,
+		"y": -256,
+		"root": false
+	},
+	"5qd8aporrskezlcd": {
+		"definition": "pickaxe",
+		"x": 128,
+		"y": -128,
+		"root": false
+	},
+	"oxgvjvx1evfu3xer": {
+		"definition": "pickaxe",
+		"x": 64,
+		"y": -64,
+		"root": false
+	},
+	"cfth0y2bu260si8v": {
+		"definition": "axe",
 		"x": 0,
-		"y": 288,
-		"root": true
+		"y": 0,
+		"root": false
+	},
+	"vtaf79ai79012jkc": {
+		"definition": "shovel",
+		"x": -64,
+		"y": 64,
+		"root": false
+	},
+	"6gj6pgia15z7b36l": {
+		"definition": "shovel-2",
+		"x": 0,
+		"y": 128,
+		"root": false
+	},
+	"7vza4otdxumw1b8q": {
+		"definition": "axe-2",
+		"x": -128,
+		"y": 0,
+		"root": false
+	},
+	"so5pzvrkb80ajca0": {
+		"definition": "fire-immune",
+		"x": -64,
+		"y": 192,
+		"root": false
+	},
+	"ip1rdlyyzhqt1cvh": {
+		"definition": "fire-power",
+		"x": 64,
+		"y": 128,
+		"root": false
+	},
+	"evvay8d15o88ew06": {
+		"definition": "shovel",
+		"x": -64,
+		"y": 160,
+		"root": false
+	},
+	"zw7gv3ins87uetvg": {
+		"definition": "repair",
+		"x": -128,
+		"y": 128,
+		"root": false
+	},
+	"2oy6acms23fve7im": {
+		"definition": "axe",
+		"x": -160,
+		"y": 64,
+		"root": false
+	},
+	"57m3s8q92peu52sd": {
+		"definition": "stone-killer",
+		"x": -160,
+		"y": 160,
+		"root": false
+	},
+	"bg3w30rrbsxikz9j": {
+		"definition": "repair",
+		"x": -192,
+		"y": 64,
+		"root": false
+	},
+	"nfahikcukcvguwty": {
+		"definition": "pickaxe-2",
+		"x": -256,
+		"y": -192,
+		"root": false
+	},
+	"ca7mnkew98lbnk7e": {
+		"definition": "lavaman",
+		"x": 192,
+		"y": 256,
+		"root": false
+	},
+	"mm7cmsua367fjxzz": {
+		"definition": "pickaxe",
+		"x": -128,
+		"y": -64,
+		"root": false
 	}
 }
