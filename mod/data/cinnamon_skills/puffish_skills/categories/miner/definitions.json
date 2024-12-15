@@ -222,7 +222,7 @@
 		]
 	},
 	"stone-killer": {
-		"title": "Stone Killer",
+		"title": "Stone (Cold) Killer",
 		"description" : "§8You can break stone with your BARE HANDS. Ouch.\n\n§aYou can break stone with your bare hands (and then actually get the stone)",
 		"icon": {
 			"type": "texture",
@@ -238,6 +238,25 @@
 				}
 			}
 		]
+	},
+	"lavaman": {
+		"title": "Lavaman",
+		"description": "§8You move underlava like a... like a... \n\n§8You move faster in lava.\n\n§a+20% Movement Speed in Lava",
+		"icon": {
+			"type": "texture",
+			"data": {
+				"texture": "icons/skills/Fire02.png"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "additionalentityattributes:generic.lava_speed",
+					"value": 0.20,
+					"operation": "multiply_base"
+				}
+			}
+		]
 	}
-	
 }
