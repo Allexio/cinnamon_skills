@@ -177,7 +177,7 @@
 	},
 	"deep-breaths": {
 		"title": "Water Breather",
-		"description": "§8You played \"who can hold their breath the longest\" when you were a child, and now it's time to put it to practice.\n\n§a+20% Lung Capacity",
+		"description": "§8You played \"who can hold their breath the longest\" when you were a child and now it's time to put it to practice.\n\n§a+20% Lung Capacity",
 		"icon": {
 			"type": "texture",
 			"data": {
