@@ -50,7 +50,7 @@
 				"data": {
 					"attribute": "puffish_skills:player.stamina",
 					"value": 0.10,
-					"operation": "multiply_total"
+					"operation": "multiply_base"
 				}
 			}
 		]
@@ -301,6 +301,12 @@
 				"type": "puffish_skills_origins:power",
 				"data": {
 					"power": "origins:throw_ender_pearl"
+				}
+			},
+			{
+				"type": "puffish_skills_origins:power",
+				"data": {
+					"power": "origins:claustrophobia"
 				}
 			}
 		]

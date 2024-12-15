@@ -100,7 +100,7 @@
 				"data": {
 					"attribute": "puffish_skills:player.melee_damage",
 					"value": 0.05,
-					"operation": "multiply_total"
+					"operation": "multiply_base"
 				}
 			}
 		]
@@ -120,7 +120,7 @@
 				"data": {
 					"attribute": "puffish_skills:player.melee_damage",
 					"value": 0.10,
-					"operation": "multiply_total"
+					"operation": "multiply_base"
 				}
 			}
 		]
@@ -140,7 +140,7 @@
 				"data": {
 					"attribute": "puffish_skills:player.healing",
 					"value": 0.05,
-					"operation": "multiply_total"
+					"operation": "multiply_base"
 				}
 			}
 		]
@@ -182,7 +182,7 @@
 				"data": {
 					"attribute": "puffish_skills:player.melee_damage",
 					"value": -0.10,
-					"operation": "multiply_total"
+					"operation": "multiply_base"
 				}
 			}
 		]

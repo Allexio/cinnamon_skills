@@ -30,7 +30,7 @@
 				"data": {
 					"attribute": "zenith_attributes:draw_speed",
 					"value": 0.05,
-					"operation": "multiply_total"
+					"operation": "multiply_base"
 				}
 			}
 		]
@@ -50,7 +50,7 @@
 				"data": {
 					"attribute": "puffish_skills:player.ranged_damage",
 					"value": 0.08,
-					"operation": "multiply_total"
+					"operation": "multiply_base"
 				}
 			}
 		]
@@ -70,7 +70,7 @@
 				"data": {
 					"attribute": "zenith_attributes:arrow_velocity",
 					"value": 0.05,
-					"operation": "multiply_total"
+					"operation": "multiply_base"
 				}
 			}
 		]
@@ -90,7 +90,7 @@
 				"data": {
 					"attribute": "zenith_attributes:dodge_chance",
 					"value": 0.10,
-					"operation": "multiply_total"
+					"operation": "multiply_base"
 				}
 			}
 		]
