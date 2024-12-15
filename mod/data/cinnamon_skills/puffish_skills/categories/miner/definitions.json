@@ -11,7 +11,7 @@
 		"icon": {
 			"type": "item",
 			"data": {
-				"texture": "minecraft:wooden_axe"
+				"item": "minecraft:wooden_axe"
 			}
 		}
 	},
@@ -21,7 +21,7 @@
 		"icon": {
 			"type": "item",
 			"data": {
-				"texture": "minecraft:stone_axe"
+				"item": "minecraft:stone_axe"
 			}
 		},
 		"rewards": [
@@ -41,7 +41,7 @@
 		"icon": {
 			"type": "item",
 			"data": {
-				"texture": "minecraft:stone_pickaxe"
+				"item": "minecraft:stone_pickaxe"
 			}
 		},
 		"rewards": [
@@ -121,7 +121,7 @@
 		"icon": {
 			"type": "item",
 			"data": {
-				"texture": "minecraft:diamond_axe"
+				"item": "minecraft:diamond_axe"
 			}
 		},
 		"rewards": [
@@ -155,7 +155,7 @@
 		"icon": {
 			"type": "item",
 			"data": {
-				"texture": "minecraft:diamond_pickaxe"
+				"item": "minecraft:diamond_pickaxe"
 			}
 		},
 		"rewards": [
