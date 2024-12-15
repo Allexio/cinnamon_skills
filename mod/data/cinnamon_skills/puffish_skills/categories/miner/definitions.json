@@ -9,47 +9,47 @@
 			}
 		},
 		"icon": {
-			"type": "texture",
+			"type": "item",
 			"data": {
-				"texture": "icons/weapons/Sword006.png"
+				"texture": "minecraft:wooden_axe"
 			}
 		}
 	},
 	"axe": {
 		"title": "Axeman",
-		"description": "§8A wise man once said: \" Now look here son, when you hear the tree creak, don't stand undern-\" \n\n§a+10% Efficiency with Axes",
+		"description": "§8A wise man once said: \" Now look here son, when you hear the tree creak, don't stand undern-\" \n\n§a+10% Axe Efficiency",
 		"icon": {
-			"type": "texture",
+			"type": "item",
 			"data": {
-				"texture": "icons/weapons/Axe002.png"
+				"texture": "minecraft:stone_axe"
 			}
 		},
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "generic.max_health",
-					"value": 1,
-					"operation": "addition"
+					"attribute": "puffish_attributes:player.axe_speed",
+					"value": 0.10,
+					"operation": "multiply_base"
 				}
 			}
 		]
 	},
 	"pickaxe": {
 		"title": "Pick-axe",
-		"description" : "§8...or pick something else, vary it up a little, you know?\n\n§a+5% Efficiency with pickaxes",
+		"description" : "§8...or pick something else, vary it up a little, you know?\n\n§a+5% Pickaxe Efficiency",
 		"icon": {
-			"type": "texture",
+			"type": "item",
 			"data": {
-				"texture": "icons/skills/Buff05.png"
+				"texture": "minecraft:stone_pickaxe"
 			}
 		},
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "puffish_skills:player.resistance",
-					"value": 0.03,
+					"attribute": "puffish_attributes:player.pickaxe_speed",
+					"value": 0.05,
 					"operation": "multiply_base"
 				}
 			}
@@ -57,18 +57,18 @@
 	},
 	"shovel": {
 		"title": "Surface Digger",
-		"description" : "§8You feel capable of so much more than digging dirt, and yet here you are. \n\n§a+10% Efficiency with shovels",
+		"description" : "§8You feel capable of so much more than digging dirt, and yet here you are. \n\n§a+10% Shovel efficiency",
 		"icon": {
-			"type": "texture",
+			"type": "item",
 			"data": {
-				"texture": "icons/skills/Buff12.png"
+				"item": "minecraft:stone_shovel"
 			}
 		},
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "puffish_skills:player.resistance",
+					"attribute": "puffish_attributes:player.shovel_speed",
 					"value": 0.10,
 					"operation": "multiply_base"
 				}
@@ -85,25 +85,33 @@
 			}
 		},
 		"icon": {
-			"type": "texture",
+			"type": "item",
 			"data": {
-				"texture": "icons/weapons/Sword004.png"
+				"item": "minecraft:diamond_shovel"
 			}
 		},
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "puffish_skills:player.melee_damage",
-					"value": 0.05,
-					"operation": "multiply_total"
+					"attribute": "puffish_attributes:player.shovel_speed",
+					"value": 0.30,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:player.pickaxe_speed",
+					"value": -0.20,
+					"operation": "multiply_base"
 				}
 			}
 		]
 	},
 	"axe-2": {
 		"title": "Axed",
-		"description": "§8Who knew body spray could be so sharp? \n\n§a+30% Axe Efficiency,\n\n§c-20% pickaxe efficiency",
+		"description": "§8That's some really sharp body spray. \n\n§a+30% Axe Efficiency,\n\n§c-20% pickaxe efficiency",
 		"frame": {
 			"type": "advancement",
 			"data": {
@@ -111,18 +119,26 @@
 			}
 		},
 		"icon": {
-			"type": "texture",
+			"type": "item",
 			"data": {
-				"texture": "icons/weapons/Sword009.png"
+				"texture": "minecraft:diamond_axe"
 			}
 		},
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "puffish_skills:player.melee_damage",
-					"value": 0.10,
-					"operation": "multiply_total"
+					"attribute": "puffish_attributes:player.axe_speed",
+					"value": 0.30,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:player.pickaxe_speed",
+					"value": -0.20,
+					"operation": "multiply_base"
 				}
 			}
 		]
@@ -137,17 +153,33 @@
 			}
 		},
 		"icon": {
-			"type": "texture",
+			"type": "item",
 			"data": {
-				"texture": "icons/skills/Buff05.png"
+				"texture": "minecraft:diamond_pickaxe"
 			}
 		},
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "puffish_skills:player.resistance",
-					"value": 0.03,
+					"attribute": "puffish_attributes:player.pickaxe_speed",
+					"value": 0.20,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:player.shovel_speed",
+					"value": -0.40,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:player.axe_speed",
+					"value": -0.40,
 					"operation": "multiply_base"
 				}
 			}
@@ -155,27 +187,27 @@
 	},
 	"repair": {
 		"title": "Repairman",
-		"description": "§8Minecraft repair prices, brought to you by Goldman Sachs. \n\n§a-10% Repair Prices",
+		"description": "§8Minecraft repair prices - brought to you by your closest loan shark. \n\n§a-10% Repair Prices",
 		"icon": {
 			"type": "texture",
 			"data": {
-				"texture": "icons/skills/Holy03.png"
+				"texture": "icons/weapons/Mace003.png"
 			}
 		},
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "puffish_skills:player.healing",
-					"value": 0.05,
-					"operation": "multiply_total"
+					"attribute": "puffish_attributes:player.repair_cost",
+					"value": -0.10,
+					"operation": "multiply_base"
 				}
 			}
 		]
 	},
 	"fire-immune": {
 		"title": "Hephaestus",
-		"description" : "§8The greek god of fire, and let's face it, a better name for Tinker's Construct.\n\n§aImmunity to all fire damage\n\n§cDamage over time while in contact with water\n\n",
+		"description" : "§8The greek god of fire, and let's face it, a better name for Tinker's Construct.\n\n§aImmunity to all fire damage\n\n§cDamaged when in contact with water (this includes rain)\n\n",
 		"frame": {
 			"type": "advancement",
 			"data": {
@@ -223,11 +255,11 @@
 	},
 	"stone-killer": {
 		"title": "Stone (Cold) Killer",
-		"description" : "§8You can break stone with your BARE HANDS. Ouch.\n\n§aYou can break stone with your bare hands (and then actually get the stone)",
+		"description" : "§8Don't try this at home.\n\n§aYou can break stone with your bare hands (and then actually get the stone)",
 		"icon": {
 			"type": "texture",
 			"data": {
-				"texture": "icons/skills/Fire06.png"
+				"texture": "icons/items/Rock01.png"
 			}
 		},
 		"rewards": [
