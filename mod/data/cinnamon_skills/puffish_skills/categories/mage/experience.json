@@ -2,39 +2,124 @@
 	"experience_per_level": {
 		"type": "expression",
 		"data": {
-			"expression": "min(level ^ 1.432 + 10, 200)"
+			"expression": "min(level ^ 1.432 + 10, 200)*4"
 		}
 	},
 	"sources": [
 		{
-			"type": "puffish_skills:kill_entity",
+			"type": "puffish_skills:deal_damage",
 			"data": {
-				"conditions": {
-					"magic": {
-						"type": "damage_type",
-						"data": {
-							"damage": "minecraft:magic"
-						}
-					}
-				},
-				"parameters": {
-					"dropped_xp": {
-						"type": "entity_dropped_experience"
+				"variables": {
+					"arcane": {
+						"operations": [
+							{
+								"type": "get_damage_source"
+							},
+							{
+								"type": "get_type"
+							},
+							{ 
+								"type": "puffish_skills:test",
+								"data": {
+									"damage_type": "spell_power:arcane"
+								}
+							}
+						]
 					},
-					"max_health": {
-						"type": "entity_max_health"
+					"fire": {
+						"operations": [
+							{
+								"type": "get_damage_source"
+							},
+							{
+								"type": "get_type"
+							},
+							{ 
+								"type": "puffish_skills:test",
+								"data": {
+									"damage_type": "spell_power:fire"
+								}
+							}
+						]
+					},
+					"soul": {
+						"operations": [
+							{
+								"type": "get_damage_source"
+							},
+							{
+								"type": "get_type"
+							},
+							{ 
+								"type": "puffish_skills:test",
+								"data": {
+									"damage_type": "spell_power:soul"
+								}
+							}
+						]
+					},
+					"lightning": {
+						"operations": [
+							{
+								"type": "get_damage_source"
+							},
+							{
+								"type": "get_type"
+							},
+							{ 
+								"type": "puffish_skills:test",
+								"data": {
+									"damage_type": "spell_power:lightning"
+								}
+							}
+						]
+					},
+					"healing": {
+						"operations": [
+							{
+								"type": "get_damage_source"
+							},
+							{
+								"type": "get_type"
+							},
+							{ 
+								"type": "puffish_skills:test",
+								"data": {
+									"damage_type": "spell_power:healing"
+								}
+							}
+						]
+					},
+					"frost": {
+						"operations": [
+							{
+								"type": "get_damage_source"
+							},
+							{
+								"type": "get_type"
+							},
+							{ 
+								"type": "puffish_skills:test",
+								"data": {
+									"damage_type": "spell_power:frost"
+								}
+							}
+						]
+					},
+					"damage": {
+						"operations": [
+							{
+								"type": "get_dealt_damage"
+							}
+						]
 					}
 				},
 				"experience": [
 					{
-						"condition": "magic",
-						"expression": "dropped_xp + max_health / 40"
+						"condition": "arcane | soul | frost | fire | healing | lightning",
+						"expression": "damage"
 					}
-				],
-				"anti_farming":{
-					"limit_per_chunk":"13",
-					"reset_after_seconds":"180"
-				}
+				]
 			}
 		}
 	]
