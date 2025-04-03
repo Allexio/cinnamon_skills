@@ -11,7 +11,7 @@
 		"icon": {
 			"type": "texture",
 			"data": {
-				"texture": "icons/items/Telescope.png"
+				"texture": "icons/items/telescope.png"
 			}
 		}
 	},
@@ -21,7 +21,7 @@
 		"icon": {
 			"type": "texture",
 			"data": {
-				"texture": "icons/items/Clover.png"
+				"texture": "icons/items/clover.png"
 			}
 		},
 		"rewards": [
@@ -41,7 +41,7 @@
 		"icon": {
 			"type": "texture",
 			"data": {
-				"texture": "icons/food/Fish.png"
+				"texture": "icons/food/fish.png"
 			}
 		},
 		"rewards": [

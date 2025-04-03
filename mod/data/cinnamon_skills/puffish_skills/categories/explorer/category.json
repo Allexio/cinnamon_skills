@@ -4,7 +4,7 @@
 	"icon": {
 		"type": "texture",
 		"data": {
-			"texture": "icons/items/Telescope.png"
+			"texture": "icons/items/telescope.png"
 		}
 	},
 	"background": {

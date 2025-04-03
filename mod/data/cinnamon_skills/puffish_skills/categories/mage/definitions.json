@@ -11,7 +11,7 @@
 		"icon": {
 			"type": "texture",
 			"data": {
-				"texture": "icons/weapons/Book06.png"
+				"texture": "icons/weapons/book06.png"
 			}
 		}
 	},
@@ -161,7 +161,7 @@
 		"icon": {
 			"type": "texture",
 			"data": {
-				"texture": "icons/items/Clock.png"
+				"texture": "icons/items/clock.png"
 			}
 		},
 		"rewards": [

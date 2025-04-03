@@ -11,7 +11,7 @@
 		"icon": {
 			"type": "texture",
 			"data": {
-				"texture": "icons/weapons/Bow02.png"
+				"texture": "icons/weapons/bow02.png"
 			}
 		}
 	},
@@ -222,7 +222,7 @@
 		"icon": {
 			"type": "texture",
 			"data": {
-				"texture": "icons/potions/Red07.png"
+				"texture": "icons/potions/red07.png"
 			}
 		},
 		"rewards": [
@@ -248,7 +248,7 @@
 		"icon": {
 			"type": "texture",
 			"data": {
-				"texture": "icons/weapons/Bow16.png"
+				"texture": "icons/weapons/bow16.png"
 			}
 		},
 		"rewards": [
@@ -290,7 +290,7 @@
 		"icon": {
 			"type": "texture",
 			"data": {
-				"texture": "icons/weapons/Bow11.png"
+				"texture": "icons/weapons/bow11.png"
 			}
 		},
 		"rewards": [

@@ -4,7 +4,7 @@
 	"icon": {
 		"type": "texture",
 		"data": {
-			"texture": "icons/weapons/Bow02.png"
+			"texture": "icons/weapons/bow02.png"
 		}
 	},
 	"background": {

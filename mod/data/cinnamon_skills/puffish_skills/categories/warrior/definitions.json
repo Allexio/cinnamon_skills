@@ -11,7 +11,7 @@
 		"icon": {
 			"type": "texture",
 			"data": {
-				"texture": "icons/weapons/Sword006.png"
+				"texture": "icons/weapons/sword006.png"
 			}
 		},
 		"rewards": [
@@ -91,7 +91,7 @@
 		"icon": {
 			"type": "texture",
 			"data": {
-				"texture": "icons/weapons/Sword004.png"
+				"texture": "icons/weapons/sword004.png"
 			}
 		},
 		"rewards": [
@@ -111,7 +111,7 @@
 		"icon": {
 			"type": "texture",
 			"data": {
-				"texture": "icons/weapons/Sword009.png"
+				"texture": "icons/weapons/sword009.png"
 			}
 		},
 		"rewards": [
@@ -193,7 +193,7 @@
 		"icon": {
 			"type": "texture",
 			"data": {
-				"texture": "icons/weapons/Mace003.png"
+				"texture": "icons/weapons/mace003.png"
 			}
 		},
 		"rewards": [
@@ -213,7 +213,7 @@
 		"icon": {
 			"type": "texture",
 			"data": {
-				"texture": "icons/weapons/Gold_Mace.png"
+				"texture": "icons/weapons/gold_mace.png"
 			}
 		},
 		"rewards": [
@@ -233,7 +233,7 @@
 		"icon": {
 			"type": "texture",
 			"data": {
-				"texture": "icons/shields/Metal04.png"
+				"texture": "icons/shields/metal04.png"
 			}
 		},
 		"rewards": [
@@ -329,7 +329,7 @@
 		"icon": {
 			"type": "texture",
 			"data": {
-				"texture": "icons/items/Cannon03.png"
+				"texture": "icons/items/cannon03.png"
 			}
 		},
 		"rewards": [

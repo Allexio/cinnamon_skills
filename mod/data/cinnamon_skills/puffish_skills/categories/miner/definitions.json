@@ -191,7 +191,7 @@
 		"icon": {
 			"type": "texture",
 			"data": {
-				"texture": "icons/weapons/Mace003.png"
+				"texture": "icons/weapons/mace003.png"
 			}
 		},
 		"rewards": [
@@ -259,7 +259,7 @@
 		"icon": {
 			"type": "texture",
 			"data": {
-				"texture": "icons/items/Rock01.png"
+				"texture": "icons/items/rock01.png"
 			}
 		},
 		"rewards": [
