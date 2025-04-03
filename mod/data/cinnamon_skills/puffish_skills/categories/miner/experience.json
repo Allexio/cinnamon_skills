@@ -13,6 +13,19 @@
 			"type": "puffish_skills:mine_block",
 			"data": {
 				"variables": {
+					"is_create_block": {
+						"operations": [
+							{
+								"type": "get_mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "#cinnamon_skills:create_blocks"
+								}
+							}
+						]
+					},
 					"is_log": {
 						"operations": [
 							{
@@ -87,45 +100,6 @@
 								"type": "puffish_skills:test",
 								"data": {
 									"block": "calcite"
-								}
-							}
-						]
-					},
-					"is_asurine": {
-						"operations": [
-							{
-								"type": "get_mined_block_state"
-							},
-							{
-								"type": "puffish_skills:test",
-								"data": {
-									"block": "create:asurine"
-								}
-							}
-						]
-					},
-					"is_crimsite": {
-						"operations": [
-							{
-								"type": "get_mined_block_state"
-							},
-							{
-								"type": "puffish_skills:test",
-								"data": {
-									"block": "create:crimsite"
-								}
-							}
-						]
-					},
-					"is_ochrum": {
-						"operations": [
-							{
-								"type": "get_mined_block_state"
-							},
-							{
-								"type": "puffish_skills:test",
-								"data": {
-									"block": "create:ochrum"
 								}
 							}
 						]
@@ -323,18 +297,6 @@
 					},
 					{
 						"condition": "is_clay",
-						"expression": "2"
-					},
-					{
-						"condition": "is_asurine",
-						"expression": "2"
-					},
-					{
-						"condition": "is_crimsite",
-						"expression": "2"
-					},
-					{
-						"condition": "is_ochrum",
 						"expression": "2"
 					},
 					{
