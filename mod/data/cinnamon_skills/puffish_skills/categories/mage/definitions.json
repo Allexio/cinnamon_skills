@@ -121,7 +121,7 @@
 		"icon": {
 			"type": "texture",
 			"data": {
-				"texture": "icons/skills/Ice02.png"
+				"texture": "icons/skills/ice02.png"
 			}
 		},
 		"rewards": [
