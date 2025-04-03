@@ -61,7 +61,7 @@
 		"icon": {
 			"type": "texture",
 			"data": {
-				"texture": "icons/skills/Buff04.png"
+				"texture": "icons/skills/buff04.png"
 			}
 		},
 		"rewards": [
@@ -81,7 +81,7 @@
 		"icon": {
 			"type": "texture",
 			"data": {
-				"texture": "icons/skills/Buff11.png"
+				"texture": "icons/skills/buff11.png"
 			}
 		},
 		"rewards": [
@@ -101,7 +101,7 @@
 		"icon": {
 			"type": "texture",
 			"data": {
-				"texture": "icons/skills/Buff09.png"
+				"texture": "icons/skills/buff09.png"
 			}
 		},
 		"rewards": [
@@ -121,7 +121,7 @@
 		"icon": {
 			"type": "texture",
 			"data": {
-				"texture": "icons/skills/Magic07.png"
+				"texture": "icons/skills/magic07.png"
 			}
 		},
 		"rewards": [
@@ -141,7 +141,7 @@
 		"icon": {
 			"type": "texture",
 			"data": {
-				"texture": "icons/skills/Water03.png"
+				"texture": "icons/skills/water03.png"
 			}
 		},
 		"rewards": [
@@ -161,7 +161,7 @@
 		"icon": {
 			"type": "texture",
 			"data": {
-				"texture": "icons/skills/Fire02.png"
+				"texture": "icons/skills/fire02.png"
 			}
 		},
 		"rewards": [
@@ -181,7 +181,7 @@
 		"icon": {
 			"type": "texture",
 			"data": {
-				"texture": "icons/skills/Water07.png"
+				"texture": "icons/skills/water07.png"
 			}
 		},
 		"rewards": [
@@ -201,7 +201,7 @@
 		"icon": {
 			"type": "texture",
 			"data": {
-				"texture": "icons/skills/Magic04.png"
+				"texture": "icons/skills/magic04.png"
 			}
 		},
 		"rewards": [
@@ -221,7 +221,7 @@
 		"icon": {
 			"type": "texture",
 			"data": {
-				"texture": "icons/skills/Holy05.png"
+				"texture": "icons/skills/holy05.png"
 			}
 		},
 		"rewards": [
@@ -257,7 +257,7 @@
 		"icon": {
 			"type": "texture",
 			"data": {
-				"texture": "icons/skills/Wind06.png"
+				"texture": "icons/skills/wind06.png"
 			}
 		},
 		"frame": {
@@ -317,7 +317,7 @@
 		"icon": {
 			"type": "texture",
 			"data": {
-				"texture": "icons/skills/Shadow10.png"
+				"texture": "icons/skills/shadow10.png"
 			}
 		},
 		"frame": {
@@ -353,7 +353,7 @@
 		"icon": {
 			"type": "texture",
 			"data": {
-				"texture": "icons/skills/Shadow14.png"
+				"texture": "icons/skills/shadow14.png"
 			}
 		},
 		"frame": {
@@ -377,7 +377,7 @@
 		"icon": {
 			"type": "texture",
 			"data": {
-				"texture": "icons/skills/Water01.png"
+				"texture": "icons/skills/water01.png"
 			}
 		},
 		"frame": {
@@ -413,7 +413,7 @@
 		"icon": {
 			"type": "texture",
 			"data": {
-				"texture": "icons/skills/Water01.png"
+				"texture": "icons/skills/water01.png"
 			}
 		},
 		"frame": {

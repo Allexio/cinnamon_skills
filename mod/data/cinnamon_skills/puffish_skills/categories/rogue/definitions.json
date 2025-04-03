@@ -21,7 +21,7 @@
 		"icon": {
 			"type": "texture",
 			"data": {
-				"texture": "icons/skills/Bow13.png"
+				"texture": "icons/skills/bow13.png"
 			}
 		},
 		"rewards": [
@@ -41,7 +41,7 @@
 		"icon": {
 			"type": "texture",
 			"data": {
-				"texture": "icons/skills/Bow01.png"
+				"texture": "icons/skills/bow01.png"
 			}
 		},
 		"rewards": [
@@ -61,7 +61,7 @@
 		"icon": {
 			"type": "texture",
 			"data": {
-				"texture": "icons/skills/Bow05.png"
+				"texture": "icons/skills/bow05.png"
 			}
 		},
 		"rewards": [
@@ -81,7 +81,7 @@
 		"icon": {
 			"type": "texture",
 			"data": {
-				"texture": "icons/skills/Shadow14.png"
+				"texture": "icons/skills/shadow14.png"
 			}
 		},
 		"rewards": [
@@ -102,7 +102,7 @@
 		"icon": {
 			"type": "texture",
 			"data": {
-				"texture": "icons/skills/Bow09.png"
+				"texture": "icons/skills/bow09.png"
 			}
 		},
 		"rewards": [
@@ -122,7 +122,7 @@
 		"icon": {
 			"type": "texture",
 			"data": {
-				"texture": "icons/skills/Buff04.png"
+				"texture": "icons/skills/buff04.png"
 			}
 		},
 		"rewards": [
@@ -142,7 +142,7 @@
 		"icon": {
 			"type": "texture",
 			"data": {
-				"texture": "icons/skills/Buff11.png"
+				"texture": "icons/skills/buff11.png"
 			}
 		},
 		"rewards": [
@@ -162,7 +162,7 @@
 		"icon": {
 			"type": "texture",
 			"data": {
-				"texture": "icons/skills/Bow06.png"
+				"texture": "icons/skills/bow06.png"
 			}
 		},
 		"rewards": [
@@ -182,7 +182,7 @@
 		"icon": {
 			"type": "texture",
 			"data": {
-				"texture": "icons/skills/Dagger02.png"
+				"texture": "icons/skills/dagger02.png"
 			}
 		},
 		"rewards": [
@@ -202,7 +202,7 @@
 		"icon": {
 			"type": "texture",
 			"data": {
-				"texture": "icons/skills/Dagger06.png"
+				"texture": "icons/skills/dagger06.png"
 			}
 		},
 		"rewards": [
@@ -324,7 +324,7 @@
 		"icon": {
 			"type": "texture",
 			"data": {
-				"texture": "icons/skills/Bow11.png"
+				"texture": "icons/skills/bow11.png"
 			}
 		},
 		"rewards": [
@@ -360,7 +360,7 @@
 		"icon": {
 			"type": "texture",
 			"data": {
-				"texture": "icons/skills/Wind04.png"
+				"texture": "icons/skills/wind04.png"
 			}
 		},
 		"rewards": [
@@ -380,7 +380,7 @@
 		"icon": {
 			"type": "texture",
 			"data": {
-				"texture": "icons/skills/Wind07.png"
+				"texture": "icons/skills/wind07.png"
 			}
 		},
 		"rewards": [

@@ -21,7 +21,7 @@
 		"icon": {
 			"type": "texture",
 			"data": {
-				"texture": "icons/skills/Magic09.png"
+				"texture": "icons/skills/magic09.png"
 			}
 		},
 		"rewards": [
@@ -41,7 +41,7 @@
 		"icon": {
 			"type": "texture",
 			"data": {
-				"texture": "icons/skills/Fire04.png"
+				"texture": "icons/skills/fire04.png"
 			}
 		},
 		"rewards": [
@@ -61,7 +61,7 @@
 		"icon": {
 			"type": "texture",
 			"data": {
-				"texture": "icons/skills/Thunder02.png"
+				"texture": "icons/skills/thunder02.png"
 			}
 		},
 		"rewards": [
@@ -81,7 +81,7 @@
 		"icon": {
 			"type": "texture",
 			"data": {
-				"texture": "icons/skills/Shadow05.png"
+				"texture": "icons/skills/shadow05.png"
 			}
 		},
 		"rewards": [
@@ -101,7 +101,7 @@
 		"icon": {
 			"type": "texture",
 			"data": {
-				"texture": "icons/skills/Magic01.png"
+				"texture": "icons/skills/magic01.png"
 			}
 		},
 		"rewards": [
@@ -141,7 +141,7 @@
 		"icon": {
 			"type": "texture",
 			"data": {
-				"texture": "icons/skills/Holy02.png"
+				"texture": "icons/skills/holy02.png"
 			}
 		},
 		"rewards": [
@@ -181,7 +181,7 @@
 		"icon": {
 			"type": "texture",
 			"data": {
-				"texture": "icons/skills/Physic01.png"
+				"texture": "icons/skills/physic01.png"
 			}
 		},
 		"rewards": [
@@ -201,7 +201,7 @@
 		"icon": {
 			"type": "texture",
 			"data": {
-				"texture": "icons/skills/Magic06.png"
+				"texture": "icons/skills/magic06.png"
 			}
 		},
 		"rewards": [
@@ -227,7 +227,7 @@
 		"icon": {
 			"type": "texture",
 			"data": {
-				"texture": "icons/skills/Shadow07.png"
+				"texture": "icons/skills/shadow07.png"
 			}
 		},
 		"rewards": [
@@ -293,7 +293,7 @@
 		"icon": {
 			"type": "texture",
 			"data": {
-				"texture": "icons/skills/Shadow15.png"
+				"texture": "icons/skills/shadow15.png"
 			}
 		},
 		"rewards": [
