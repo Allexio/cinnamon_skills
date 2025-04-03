@@ -1,12 +1,26 @@
 {
 	"schemaVersion": 1,
 	"id": "cinnamon_skills",
-	"version": "1.0",
+	"version": "1.0.3",
 	"name": "Cinnamon Skills",
-	"description": "",
+	"description": "A simple skill tree config for use with puffish's skill mod",
 	"authors": [
-		"Pufferfish's Template Generator"
+		"Allexio",
+		"Puffish's Generator tool"
 	],
-	"license": "Unlicense",
-	"environment": "*"
+	"license": "Attribution-ShareAlike 4.0 International",
+	"environment": "*",
+	"icon": "icon.png",
+	"depends": {
+		"minecraft": "\u003e\u003d1.20 \u003c\u003d1.20.1",
+		"additionalentityattributes": "*",
+		"combatroll": "*",
+		"origins": "*",
+		"zenith_attributes": "*",
+		"lootr": "*",
+		"puffish_attributes": "*",
+		"puffish_skills": "*",
+		"spell_power": "*"
+	  }
+
 }
