@@ -3,7 +3,7 @@
 		"definition": "root_miner",
 		"x": 192,
 		"y": -192,
-		"root": false
+		"root": true
 	},
 	"uwi6bh40hf6439fh": {
 		"definition": "shovel",
